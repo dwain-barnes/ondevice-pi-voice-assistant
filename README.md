@@ -32,6 +32,23 @@ A lightweight, privacy-focused voice assistant that runs entirely offline on you
 git clone https://github.com/dwain-barnes/ondevice-pi-voice-assistant.git
 cd ondevice-pi-voice-assistant
 ```
+# Create venv
+python -m venv ondevice-voice-env
+
+# Or with specific Python version
+python3 -m venv ondevice-voice-env
+
+# Command Prompt
+ondevice-voice-env\Scripts\activate
+
+# PowerShell
+ondevice-voice-env\Scripts\Activate.ps1
+
+# Git Bash
+source ondevice-voice-env/Scripts/activate
+
+# Linux/Mac/Pi
+source ondevice-voice-env/bin/activate
 
 2. **Install dependencies:**
 ```bash
