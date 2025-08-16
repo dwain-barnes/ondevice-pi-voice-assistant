@@ -54,6 +54,8 @@ source ondevice-voice-env/bin/activate
 ```bash
 pip install -r requirements.txt
 pip install https://github.com/KittenML/KittenTTS/releases/download/0.1/kittentts-0.1.0-py3-none-any.whl
+sudo apt-get install portaudio19-dev
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 3. **Setup Ollama (if not already installed):**
