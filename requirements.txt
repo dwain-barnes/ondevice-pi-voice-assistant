@@ -1,0 +1,19 @@
+#Requirements - Whisper Tiny + KittenTTS Version
+
+# Core dependencies
+openai-whisper>=20231117
+torch>=2.0.0
+numpy>=1.21.0
+soundfile>=0.12.1
+pyaudio>=0.2.11
+ollama>=0.1.0
+
+# KittenTTS (install from GitHub)
+# Install with: pip install https://github.com/KittenML/KittenTTS/releases/download/0.1/kittentts-0.1.0-py3-none-any.whl
+
+# Additional whisper dependencies (usually auto-installed)
+tiktoken>=0.3.3
+ffmpeg-python>=0.2.0
+
+# Optional: for better performance
+# numba>=0.56.0  # Uncomment if you want faster processing
